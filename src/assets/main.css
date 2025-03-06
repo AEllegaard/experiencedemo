@@ -5,3 +5,131 @@
   --color-orange-100:#FF4C09;
     /* ... */
 }
+
+@font-face {
+  font-family: 'MyFontReg';
+  src: url('/SansControlRegular.otf') format('truetype');
+}
+@font-face {
+  font-family: 'MyFontscrib';
+  src: url('/SansControlScribbled.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'MyFontReg';
+  src: url('./SansControlRegular.woff') format('woff');
+}
+@font-face {
+  font-family: 'MyFontscrib';
+  src: url('./SansControlScribbled.woff') format('woff');
+}
+
+.label {
+
+  font-family: 'MyFontReg', sans-serif;  
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-size: 24px;
+  transition: color 0.3s;
+}
+
+.label:hover {
+color: #FF4C09;
+}
+
+.intro{
+  display: flex;
+  flex-direction: column;
+  font-family: 'MyFontReg', sans-serif;  
+  font-size: 19rem;
+  line-height: 20rem;
+  text-align: center;
+  height: 100vh;
+  justify-content:  center;
+
+}
+
+.title:hover{
+color:#FF4C09;
+font-family: 'MyFontscrib', sans-serif;  
+transition: 0.2s;
+}
+
+.section1{
+  font-family: 'MyFontReg', sans-serif;  
+  display: flex;
+  flex-direction: column;
+  font-family: 'MyFontReg', sans-serif;  
+  font-size: 4rem;
+  line-height: 4rem;
+  text-align: center;
+  height: 100vh;
+  justify-content:  center;
+  margin:0px 210px
+}
+
+.bad{
+  color:#FF4C09;
+font-family: 'MyFontscrib', sans-serif;  
+}
+
+.bad:hover{
+  color:black;
+font-family: 'MyFontReg', sans-serif;  
+transition: 0.2s;
+}
+
+.blurr{
+  filter: blur(3px);
+  position: absolute;
+  width: 20%;
+}
+.blurr:hover{
+  filter: blur(0px);
+  transition: 0.2;
+}
+
+.one{
+  right: 100px;
+  margin-top: 320px;
+}
+.two{
+  left: 400px;
+  margin-top: 600px;
+}
+.three{
+  left: 100px;
+  margin-bottom: 500px;
+}
+.four{
+  right: 350px;
+  margin-bottom: 500px;
+}
+
+.us{
+  position: absolute;
+  width: 20%;
+}
+
+.six{
+  margin-bottom: 400px;
+  left:10px;
+}
+
+.seven{
+  right:50px;
+  margin-bottom: 100px;
+}
+
+.eight{
+  left: 300px;
+  margin-top: 600px;
+}
+.nine{
+  left: 600px;
+  margin-bottom: 500px;
+}
+.ten{
+  right: 400px;
+  margin-top: 400px;
+}
